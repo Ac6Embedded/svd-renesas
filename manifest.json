@@ -1,0 +1,569 @@
+{
+  "vendor": "Renesas",
+  "generated": "2026-07-19",
+  "sources": [
+    {
+      "name": "Renesas.RA_DFP",
+      "url": "https://www2.renesas.eu/Keil_MDK_Packs/Renesas.RA_DFP.6.5.1.pack",
+      "version": "6.5.1",
+      "license": "UNSPECIFIED (empty <license> element in pdsc, no license file in pack)",
+      "files": 40
+    },
+    {
+      "name": "rzt-fsp",
+      "url": "https://github.com/renesas/rzt-fsp/releases/download/v3.1.0/RZT_FSP_Packs_v3.1.0.zip",
+      "version": "v3.1.0",
+      "license": "BSD-3-Clause for Renesas BSP components per repo LICENSE.md (no license file inside the mcu packs themselves)",
+      "files": 14
+    },
+    {
+      "name": "rzn-fsp",
+      "url": "https://github.com/renesas/rzn-fsp/releases/download/v3.1.0/RZN_FSP_Packs_v3.1.0.zip",
+      "version": "v3.1.0",
+      "license": "BSD-3-Clause for Renesas BSP components per repo LICENSE.md (no license file inside the mcu packs themselves)",
+      "files": 3
+    }
+  ],
+  "files": [
+    {
+      "path": "RA/R7FA0E107.svd",
+      "device": "R7FA0E107",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA0E105"
+      ]
+    },
+    {
+      "path": "RA/R7FA0E209.svd",
+      "device": "R7FA0E209",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA0E207"
+      ]
+    },
+    {
+      "path": "RA/R7FA0E303.svd",
+      "device": "R7FA0E303",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA0L107.svd",
+      "device": "R7FA0L107",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA0L105"
+      ]
+    },
+    {
+      "path": "RA/R7FA2A1AB.svd",
+      "device": "R7FA2A1AB",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA2A2AD.svd",
+      "device": "R7FA2A2AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA2A2BD"
+      ]
+    },
+    {
+      "path": "RA/R7FA2E1A9.svd",
+      "device": "R7FA2E1A9",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA2E1A7",
+        "R7FA2E1A5"
+      ]
+    },
+    {
+      "path": "RA/R7FA2E2A7.svd",
+      "device": "R7FA2E2A7",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA2E2A5",
+        "R7FA2E2A3"
+      ]
+    },
+    {
+      "path": "RA/R7FA2E307.svd",
+      "device": "R7FA2E307",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA2E305"
+      ]
+    },
+    {
+      "path": "RA/R7FA2L1AB.svd",
+      "device": "R7FA2L1AB",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA2L1A9"
+      ]
+    },
+    {
+      "path": "RA/R7FA2L209.svd",
+      "device": "R7FA2L209",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA2L207"
+      ]
+    },
+    {
+      "path": "RA/R7FA2T107.svd",
+      "device": "R7FA2T107",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA4C1BD.svd",
+      "device": "R7FA4C1BD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA4C1CD",
+        "R7FA4C1BB"
+      ]
+    },
+    {
+      "path": "RA/R7FA4E10D.svd",
+      "device": "R7FA4E10D",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA4E10B"
+      ]
+    },
+    {
+      "path": "RA/R7FA4E2B9.svd",
+      "device": "R7FA4E2B9",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA4L1BD.svd",
+      "device": "R7FA4L1BD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA4L1BB"
+      ]
+    },
+    {
+      "path": "RA/R7FA4M1AB.svd",
+      "device": "R7FA4M1AB",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA4M2AD.svd",
+      "device": "R7FA4M2AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA4M2AC",
+        "R7FA4M2AB"
+      ]
+    },
+    {
+      "path": "RA/R7FA4M3AF.svd",
+      "device": "R7FA4M3AF",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA4M3AE",
+        "R7FA4M3AD"
+      ]
+    },
+    {
+      "path": "RA/R7FA4T1BB.svd",
+      "device": "R7FA4T1BB",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA4T1B9"
+      ]
+    },
+    {
+      "path": "RA/R7FA4W1AD.svd",
+      "device": "R7FA4W1AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA6E10F.svd",
+      "device": "R7FA6E10F",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6E10F_dual",
+        "R7FA6E10D",
+        "R7FA6E10D_dual"
+      ]
+    },
+    {
+      "path": "RA/R7FA6E2BB.svd",
+      "device": "R7FA6E2BB",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6E2B9"
+      ]
+    },
+    {
+      "path": "RA/R7FA6M1AD.svd",
+      "device": "R7FA6M1AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA6M2AF.svd",
+      "device": "R7FA6M2AF",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6M2AD"
+      ]
+    },
+    {
+      "path": "RA/R7FA6M3AH.svd",
+      "device": "R7FA6M3AH",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6M3AF"
+      ]
+    },
+    {
+      "path": "RA/R7FA6M4AF.svd",
+      "device": "R7FA6M4AF",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6M4AF_dual",
+        "R7FA6M4AE",
+        "R7FA6M4AE_dual",
+        "R7FA6M4AD",
+        "R7FA6M4AD_dual"
+      ]
+    },
+    {
+      "path": "RA/R7FA6M5BH.svd",
+      "device": "R7FA6M5BH",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6M5AH",
+        "R7FA6M5AG",
+        "R7FA6M5BG",
+        "R7FA6M5BF"
+      ]
+    },
+    {
+      "path": "RA/R7FA6T1AD.svd",
+      "device": "R7FA6T1AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6T1AB"
+      ]
+    },
+    {
+      "path": "RA/R7FA6T2BD.svd",
+      "device": "R7FA6T2BD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA6T2AD",
+        "R7FA6T2AB",
+        "R7FA6T2BB"
+      ]
+    },
+    {
+      "path": "RA/R7FA6T3BB.svd",
+      "device": "R7FA6T3BB",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA8D1BH.svd",
+      "device": "R7FA8D1BH",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA8D1AF",
+        "R7FA8D1BF",
+        "R7FA8D1AH"
+      ]
+    },
+    {
+      "path": "RA/R7FA8E1AF.svd",
+      "device": "R7FA8E1AF",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA8E2AF.svd",
+      "device": "R7FA8E2AF",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RA/R7FA8M1AH.svd",
+      "device": "R7FA8M1AH",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA8M1AF"
+      ]
+    },
+    {
+      "path": "RA/R7FA8T1AH.svd",
+      "device": "R7FA8T1AH",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7FA8T1AF"
+      ]
+    },
+    {
+      "path": "RA/R7KA8D2AD.svd",
+      "device": "R7KA8D2AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7KA8D2JF",
+        "R7KA8D2KF",
+        "R7JA8D2JS",
+        "R7JA8D2KS",
+        "R7JA8D2JR",
+        "R7JA8D2KR",
+        "R7KA8D2AF",
+        "R7KA8D2BF",
+        "R7KA8D2BD"
+      ]
+    },
+    {
+      "path": "RA/R7KA8M2AD.svd",
+      "device": "R7KA8M2AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7KA8M2JF",
+        "R7JA8M2JS",
+        "R7JA8M2JR",
+        "R7KA8M2AF"
+      ]
+    },
+    {
+      "path": "RA/R7KA8P1AD.svd",
+      "device": "R7KA8P1AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7KA8P1JF",
+        "R7KA8P1KF",
+        "R7JA8P1JS",
+        "R7JA8P1KS",
+        "R7JA8P1JR",
+        "R7JA8P1KR",
+        "R7KA8P1AF",
+        "R7KA8P1BF",
+        "R7KA8P1BD"
+      ]
+    },
+    {
+      "path": "RA/R7KA8T2AD.svd",
+      "device": "R7KA8T2AD",
+      "family": "RA",
+      "source": "Renesas.RA_DFP",
+      "provenance": "pristine",
+      "also_covers": [
+        "R7KA8T2LF",
+        "R7JA8T2JS",
+        "R7JA8T2LS",
+        "R7JA8T2JR",
+        "R7JA8T2LR",
+        "R7KA8T2AF",
+        "R7KA8T2CF",
+        "R7KA8T2CD"
+      ]
+    },
+    {
+      "path": "RZN/R9A07G084M04.svd",
+      "device": "R9A07G084M04",
+      "family": "RZN",
+      "source": "rzn-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZN/R9A07G084M08.svd",
+      "device": "R9A07G084M08",
+      "family": "RZN",
+      "source": "rzn-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZN/R9A09G087.svd",
+      "device": "R9A09G087",
+      "family": "RZN",
+      "source": "rzn-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G074M01.svd",
+      "device": "R9A07G074M01",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G074M04.svd",
+      "device": "R9A07G074M04",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G074M05.svd",
+      "device": "R9A07G074M05",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G074M08.svd",
+      "device": "R9A07G074M08",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M01.svd",
+      "device": "R9A07G075M01",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M05.svd",
+      "device": "R9A07G075M05",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M21.svd",
+      "device": "R9A07G075M21",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M22.svd",
+      "device": "R9A07G075M22",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M24.svd",
+      "device": "R9A07G075M24",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M26.svd",
+      "device": "R9A07G075M26",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M27.svd",
+      "device": "R9A07G075M27",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M28.svd",
+      "device": "R9A07G075M28",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A07G075M29.svd",
+      "device": "R9A07G075M29",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    },
+    {
+      "path": "RZT/R9A09G077M.svd",
+      "device": "R9A09G077M",
+      "family": "RZT",
+      "source": "rzt-fsp",
+      "provenance": "pristine"
+    }
+  ],
+  "stats": {
+    "total_files": 57,
+    "total_bytes": 376158879
+  },
+  "issues": [
+    "RA_DFP: pdsc <license> element is empty and no license/EULA/terms file exists inside the pack. No redistribution grant found."
+  ]
+}
