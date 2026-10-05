@@ -1,11 +1,11 @@
 {
   "vendor": "Renesas",
-  "generated": "2026-07-19",
+  "generated": "2026-10-05",
   "sources": [
     {
       "name": "Renesas.RA_DFP",
-      "url": "https://www2.renesas.eu/Keil_MDK_Packs/Renesas.RA_DFP.6.5.1.pack",
-      "version": "6.5.1",
+      "url": "https://www2.renesas.eu/Keil_MDK_Packs/Renesas.RA_DFP.6.6.0.pack",
+      "version": "6.6.0",
       "license": "UNSPECIFIED (empty <license> element in pdsc, no license file in pack)",
       "files": 40
     },
